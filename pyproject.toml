@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+dependencies = ["mistletoe"]
+name = "rdramamistletoe"
+version = "0.0.1"
+author = "DrTransmisia"
+description = "Wrapper of mistletoe with custom rDrama`s tags `n shit"
+url = "https://github.com/DrTransmisia/rDramaMistletoe"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: OS Independent"
+]
+
